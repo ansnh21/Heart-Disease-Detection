@@ -1,54 +1,41 @@
-Heart Disease Prediction using Logistic Regression
-This project aims to build a machine learning model to predict the likelihood of heart disease in individuals based on various medical attributes. The model uses logistic regression for classification.
+# Heart Disease Prediction using Logistic Regression
 
-Dataset
-The dataset contains several medical parameters including age, blood pressure, cholesterol levels, and other indicators. The target variable indicates whether the person has heart disease (1) or not (0).
+This project builds a logistic regression model to predict the likelihood of heart disease based on patient medical data.
 
-Features
-Age
+## Dataset
 
-Sex
+The dataset includes features like:
 
-Chest Pain Type
+- Age  
+- Sex  
+- Chest Pain Type  
+- Resting Blood Pressure  
+- Serum Cholesterol  
+- Fasting Blood Sugar  
+- Resting ECG Results  
+- Maximum Heart Rate Achieved  
+- Exercise-Induced Angina  
+- ST Depression  
+- Slope of the Peak Exercise ST Segment  
+- Number of Major Vessels  
+- Thalassemia  
 
-Resting Blood Pressure
+The target variable is:
+- `1`: Presence of heart disease  
+- `0`: Absence of heart disease
 
-Serum Cholesterol
+## Workflow
 
-Fasting Blood Sugar
+1. Load and inspect the dataset  
+2. Split data into features and target  
+3. Split data into training and test sets  
+4. Train a logistic regression model  
+5. Evaluate model performance  
+6. Predict heart disease using new input data
 
-Resting ECG Results
+## Requirements
 
-Maximum Heart Rate
-
-Exercise-Induced Angina
-
-ST Depression
-
-Slope of the Peak Exercise ST Segment
-
-Number of Major Vessels
-
-Thalassemia
-
-Workflow
-Load and explore the dataset
-
-Split data into features and labels
-
-Split into training and testing sets
-
-Train a logistic regression model
-
-Evaluate the model using accuracy
-
-Make predictions on new sample input
-
-Requirements
-Python 3.x
-
-pandas
-
-numpy
-
-scikit-learn
+- Python 3.x  
+- pandas  
+- numpy  
+- scikit-learn  
